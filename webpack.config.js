@@ -1,3 +1,7 @@
+require('babel-core/register')({
+    presets: ['es2015', 'stage-2']
+});
+
 module.exports = {
     entry: './src/index.js',
     output: {
@@ -12,14 +16,14 @@ module.exports = {
                 test: /\.vue$/,
                 loader: 'vue'
             },
-            // {
-            //     test: /\.js$/,
-            //     exclude: /node_modules/,
-            //     loader: 'babel-core',
-            //     query: {
-            //         presets: ['es2015']
-            //     }
-            // },
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                loader: 'babel',
+                query: {
+                    presets: ['es2015']
+                }
+            },
             {
                 test: /\.less$/,
                 loader: 'style!css!autoprefixer!less'

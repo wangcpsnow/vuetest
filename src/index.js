@@ -1,4 +1,4 @@
-var Vue = require("vue");
+import Vue from 'vue';
 
 var VueRouter = require("vue-router");
 Vue.use(VueRouter);
@@ -11,7 +11,7 @@ var Bar = Vue.extend({
     template: '<p>This is bar!</p>'
 })
 
-var Hello = require("./components/hello.vue");
+import Hello from "./components/hello.vue"; 
 
 var App = Vue.extend({});
 
@@ -24,7 +24,7 @@ router.map({
     '/bar': {
         component: Bar
     },
-    'hello': {
+    '/hello': {
         component: Hello
     }
 })
