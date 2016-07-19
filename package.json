@@ -1,0 +1,19 @@
+{
+  "name": "vuetest",
+  "version": "1.0.0",
+  "description": "vuetest",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "spring",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.10.4",
+    "html-loader": "^0.4.3",
+    "url": "^0.11.0",
+    "vue": "^1.0.26",
+    "vue-router": "^0.7.13",
+    "webpack": "^1.13.1"
+  }
+}
