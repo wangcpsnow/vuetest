@@ -3,6 +3,9 @@ import Vue from 'vue';
 var VueRouter = require("vue-router");
 Vue.use(VueRouter);
 
+var VueReource = require("vue-resource");
+Vue.use(VueReource);
+
 var Foo = Vue.extend({
     template: '<p>This is foo!</p>'
 })
