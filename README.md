@@ -13,3 +13,9 @@
 2.vue-resource
 
     vue ajax插件
+
+
+###API 
+
+    1. [vue-router](http://router.vuejs.org/zh-cn/)
+    2. [vuex](http://vuex.vuejs.org/zh-cn/)
